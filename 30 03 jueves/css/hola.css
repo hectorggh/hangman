@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#navegacion{
+    height: 109px;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+#hero{
+    height: 980px;
+    background-image: url("hero-minre.jpg");
+}
+
+#introducing{
+    height: 508px;
+    background-color: white;
+}
+
+#brand{
+    height: 1080px;
+    background-color: #66cddf;
+}
+
+#yosemite{
+    height: 1080px;
+    background-color: white;
+}
+
+#legend{
+    height: 1080px;
+    background-color: #66cddf;
+}
+
+#paper{
+    height: 1080px;
+    background-color: white;
+}
+
+#love{
+    height: 979px;
+    background-color: #c3ccca;
+}
+
+#thefox{
+    height: 1080px;
+    background-color: #222533;
+}
+
+footer{
+    height: 118px;
+    border-top: 1px color #2a2e3f;
+    background-color: #1a1c27;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    
+}
+
+.div-nav{
+    padding-top: 30px;
+}
+
+.div-hero{
+    padding-top: 326px;
+    
+}
+
+.div-intro{
+    padding-top: 149px;
+}
+
+.div-brand{
+    padding-top: 351px;
+    
+}
+
+.div-yose{
+    padding-top: 348px;
+}
+
+.div-legend{
+    padding-top: 350px;
+}
+
+.div-paper{
+    padding-top: 348px;
+}
+
+.div-love{
+    padding-top: 450px;
+}
+
+.div-fox{
+    padding-top: 351px;
+}
+
+.div-footer{
+    padding-top: 34px;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+    margin: 0;
+}
+
+p.grande{
+    font-size: 36px;
+    margin: 0;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.playfair{
+    font-family: 'Playfair Display', serif;
+}
+
+p.pequeño{
+    font-size: 24px;
+    margin: 0;
+}
+
+.izquierda{
+    float:left;
+}
+
+.derecha{
+    float:right;
+}
+
+.negro{
+    color: black;
+}
+
+.blanco{
+    color: white;
+}
+
+.extrabold{
+    font-weight: 800;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.azul{
+    color: #29d9c2;
+}
+
+.gris{
+    color: #a1b1bc;
+}
+
+.gigante{
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.lato90{
+    font-family: 'Lato', sans-serif;
+    font-size: 90px;
+}
+
+.lato14{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.corazon{
+    font-size: 100%;
+}
+
+.casinegro{
+    color: #2f2933;
+}
+
+.w469{
+    width: 469px;
+}
+
+.menu{
+    padding-left: 33px;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    width: 876px;
+    display: inline-block;
+}
+
+a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a.transblanco{
+    color:white;
+    border: 2px solid white;
+    padding: 23px 49px;
+    
+}
+
+a.blanconegro{
+    background-color: white;
+    color: #2f2933;
+}
+
+a.negroblanco{
+    background-color: #2f2933;
+    color: white;
+}
+
+a.azulblanco{
+    background-color: #29d9c2;
+    color:white;
+}
+
+a.blanconegronegro{
+    background-color: white;
+    color:  #2f2933;
+    border: 2px solid #2f2933;
+    padding: 23px 34px;
+}
+
+.round{
+    border-radius: 5px;
+}
+
+.margen20{
+    margin-right: 20px;
+}
+
+.margen47{
+    margin-top: 47px;
+}
+
+.margen30{
+    margin-top: 35px;
+}
+
+.m700{
+    margin-left: 700px;
+}
+
+.pad30{
+    padding-top: 30px;
+}
+
+.pad10{
+    padding-top: 10px;
+}
+
+.pad30b{
+    padding-bottom: 30px;
+}
+
+.pad60{
+    padding-top: 60px;
+}
+
+.pad40{
+    padding-top: 40px;
+}
+
+.paddownload{
+    padding: 25px 36px;
+}
+
+.padpurchase{
+    padding: 25px 46px;
+}
+
+.padcheck{
+    padding: 25px 54px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex3{
+    display: flex;
+    justify-content: center;
+}
+.flex-o{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-item {
+    background-color: red;
+    border: 1px solid #000;
+    flex-grow: 1;
+}
+
+#prueba{
+    height: 300px;
+}
